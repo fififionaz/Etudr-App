@@ -17,7 +17,7 @@
                BlueprintIdentifier = "F47029EF1A7F27DB00E30A3C"
                BuildableName = "SidebarMenu.app"
                BlueprintName = "SidebarMenu"
-               ReferencedContainer = "container:EtudrApp.xcodeproj">
+               ReferencedContainer = "container:Etudr.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "F4702A041A7F27DC00E30A3C"
                BuildableName = "SidebarMenuTests.xctest"
                BlueprintName = "SidebarMenuTests"
-               ReferencedContainer = "container:EtudrApp.xcodeproj">
+               ReferencedContainer = "container:Etudr.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -45,7 +45,7 @@
             BlueprintIdentifier = "F47029EF1A7F27DB00E30A3C"
             BuildableName = "SidebarMenu.app"
             BlueprintName = "SidebarMenu"
-            ReferencedContainer = "container:EtudrApp.xcodeproj">
+            ReferencedContainer = "container:Etudr.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -58,13 +58,14 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F47029EF1A7F27DB00E30A3C"
             BuildableName = "SidebarMenu.app"
             BlueprintName = "SidebarMenu"
-            ReferencedContainer = "container:EtudrApp.xcodeproj">
+            ReferencedContainer = "container:Etudr.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -76,13 +77,14 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F47029EF1A7F27DB00E30A3C"
             BuildableName = "SidebarMenu.app"
             BlueprintName = "SidebarMenu"
-            ReferencedContainer = "container:EtudrApp.xcodeproj">
+            ReferencedContainer = "container:Etudr.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0DADF33A-8BBF-4EB1-9679-CE718706D404</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EtudrApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>289E689C33A27881B47493C28280E56FBC8882B7</key>
+		<string>https://github.com/fififionaz/Etudr-App.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EtudrApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>289E689C33A27881B47493C28280E56FBC8882B7</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/fififionaz/Etudr-App.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>289E689C33A27881B47493C28280E56FBC8882B7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>289E689C33A27881B47493C28280E56FBC8882B7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Etudr%20App</string>
+		</dict>
+	</array>
+</dict>
+</plist>
