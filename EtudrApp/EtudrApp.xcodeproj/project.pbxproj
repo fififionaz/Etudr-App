@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E585F2B41B3E8873008227BC /* EtudrAppTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = F4702A051A7F27DC00E30A3C /* EtudrAppTests.xctest */; };
-		E585F2B51B3E8874008227BC /* EtudrAppTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = F4702A051A7F27DC00E30A3C /* EtudrAppTests.xctest */; };
 		F47029F61A7F27DB00E30A3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47029F51A7F27DB00E30A3C /* AppDelegate.swift */; };
 		F47029FB1A7F27DB00E30A3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F47029F91A7F27DB00E30A3C /* Main.storyboard */; };
 		F47029FD1A7F27DB00E30A3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F47029FC1A7F27DB00E30A3C /* Images.xcassets */; };
@@ -23,7 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E58D01761B3E577000BDC93F /* PBXContainerItemProxy */ = {
+		E58D01721B3E56DA00BDC93F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F47029E81A7F27DB00E30A3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F47029EF1A7F27DB00E30A3C;
+			remoteInfo = SidebarMenu;
+		};
+		E58D01741B3E56DB00BDC93F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F47029E81A7F27DB00E30A3C /* Project object */;
 			proxyType = 1;
@@ -40,13 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F47029F01A7F27DB00E30A3C /* EtudrApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EtudrApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F47029F01A7F27DB00E30A3C /* SidebarMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SidebarMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F47029F41A7F27DB00E30A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F47029F51A7F27DB00E30A3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F47029FA1A7F27DB00E30A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F47029FC1A7F27DB00E30A3C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F47029FF1A7F27DB00E30A3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F4702A051A7F27DC00E30A3C /* EtudrAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtudrAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4702A051A7F27DC00E30A3C /* SidebarMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SidebarMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4702A0A1A7F27DC00E30A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4702A0B1A7F27DC00E30A3C /* SidebarMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarMenuTests.swift; sourceTree = "<group>"; };
 		F4702A151A7F342F00E30A3C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -89,8 +94,8 @@
 		F47029F11A7F27DB00E30A3C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F47029F01A7F27DB00E30A3C /* EtudrApp.app */,
-				F4702A051A7F27DC00E30A3C /* EtudrAppTests.xctest */,
+				F47029F01A7F27DB00E30A3C /* SidebarMenu.app */,
+				F4702A051A7F27DC00E30A3C /* SidebarMenuTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,9 +145,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F47029EF1A7F27DB00E30A3C /* EtudrApp */ = {
+		F47029EF1A7F27DB00E30A3C /* SidebarMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4702A0F1A7F27DC00E30A3C /* Build configuration list for PBXNativeTarget "EtudrApp" */;
+			buildConfigurationList = F4702A0F1A7F27DC00E30A3C /* Build configuration list for PBXNativeTarget "SidebarMenu" */;
 			buildPhases = (
 				F47029EC1A7F27DB00E30A3C /* Sources */,
 				F47029ED1A7F27DB00E30A3C /* Frameworks */,
@@ -152,14 +157,14 @@
 			);
 			dependencies = (
 			);
-			name = EtudrApp;
+			name = SidebarMenu;
 			productName = SidebarMenu;
-			productReference = F47029F01A7F27DB00E30A3C /* EtudrApp.app */;
+			productReference = F47029F01A7F27DB00E30A3C /* SidebarMenu.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F4702A041A7F27DC00E30A3C /* EtudrAppTests */ = {
+		F4702A041A7F27DC00E30A3C /* SidebarMenuTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4702A121A7F27DC00E30A3C /* Build configuration list for PBXNativeTarget "EtudrAppTests" */;
+			buildConfigurationList = F4702A121A7F27DC00E30A3C /* Build configuration list for PBXNativeTarget "SidebarMenuTests" */;
 			buildPhases = (
 				F4702A011A7F27DC00E30A3C /* Sources */,
 				F4702A021A7F27DC00E30A3C /* Frameworks */,
@@ -169,11 +174,12 @@
 			);
 			dependencies = (
 				F4702A071A7F27DC00E30A3C /* PBXTargetDependency */,
-				E58D01771B3E577000BDC93F /* PBXTargetDependency */,
+				E58D01731B3E56DA00BDC93F /* PBXTargetDependency */,
+				E58D01751B3E56DB00BDC93F /* PBXTargetDependency */,
 			);
-			name = EtudrAppTests;
+			name = SidebarMenuTests;
 			productName = SidebarMenuTests;
-			productReference = F4702A051A7F27DC00E30A3C /* EtudrAppTests.xctest */;
+			productReference = F4702A051A7F27DC00E30A3C /* SidebarMenuTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -212,8 +218,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F47029EF1A7F27DB00E30A3C /* EtudrApp */,
-				F4702A041A7F27DC00E30A3C /* EtudrAppTests */,
+				F47029EF1A7F27DB00E30A3C /* SidebarMenu */,
+				F4702A041A7F27DC00E30A3C /* SidebarMenuTests */,
 			);
 		};
 /* End PBXProject section */
@@ -224,7 +230,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F47029FB1A7F27DB00E30A3C /* Main.storyboard in Resources */,
-				E585F2B41B3E8873008227BC /* EtudrAppTests.xctest in Resources */,
 				F4702A001A7F27DC00E30A3C /* LaunchScreen.xib in Resources */,
 				F47029FD1A7F27DB00E30A3C /* Images.xcassets in Resources */,
 			);
@@ -234,7 +239,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E585F2B51B3E8874008227BC /* EtudrAppTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +269,19 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E58D01771B3E577000BDC93F /* PBXTargetDependency */ = {
+		E58D01731B3E56DA00BDC93F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F47029EF1A7F27DB00E30A3C /* EtudrApp */;
-			targetProxy = E58D01761B3E577000BDC93F /* PBXContainerItemProxy */;
+			target = F47029EF1A7F27DB00E30A3C /* SidebarMenu */;
+			targetProxy = E58D01721B3E56DA00BDC93F /* PBXContainerItemProxy */;
+		};
+		E58D01751B3E56DB00BDC93F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F47029EF1A7F27DB00E30A3C /* SidebarMenu */;
+			targetProxy = E58D01741B3E56DB00BDC93F /* PBXContainerItemProxy */;
 		};
 		F4702A071A7F27DC00E30A3C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F47029EF1A7F27DB00E30A3C /* EtudrApp */;
+			target = F47029EF1A7F27DB00E30A3C /* SidebarMenu */;
 			targetProxy = F4702A061A7F27DC00E30A3C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -380,7 +389,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SidebarMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = EtudrApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
@@ -390,7 +399,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SidebarMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = EtudrApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -408,7 +417,7 @@
 				);
 				INFOPLIST_FILE = SidebarMenuTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = EtudrAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
@@ -423,7 +432,7 @@
 				);
 				INFOPLIST_FILE = SidebarMenuTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = EtudrAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
@@ -440,7 +449,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4702A0F1A7F27DC00E30A3C /* Build configuration list for PBXNativeTarget "EtudrApp" */ = {
+		F4702A0F1A7F27DC00E30A3C /* Build configuration list for PBXNativeTarget "SidebarMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4702A101A7F27DC00E30A3C /* Debug */,
@@ -449,7 +458,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4702A121A7F27DC00E30A3C /* Build configuration list for PBXNativeTarget "EtudrAppTests" */ = {
+		F4702A121A7F27DC00E30A3C /* Build configuration list for PBXNativeTarget "SidebarMenuTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4702A131A7F27DC00E30A3C /* Debug */,

@@ -1,12 +1,14 @@
 //
-//  MapViewController.swift
+//  PhotoViewController.swift
 //  SidebarMenu
 //
-
+//  Created by Simon Ng on 2/2/15.
+//  Copyright (c) 2015 AppCoda. All rights reserved.
+//
 
 import UIKit
 
-class MapViewController: UIViewController {
+class PhotoViewController: UIViewController {
     @IBOutlet weak var menuButton:UIBarButtonItem!
 
     override func viewDidLoad() {
